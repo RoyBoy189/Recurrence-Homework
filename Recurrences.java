@@ -22,7 +22,7 @@ public class Recurrences {
 
 
     private static long F(int n){
-        if(n == 0 || n == 4 || n == 5 || n == 6 || n ==2) {
+        if(n == 0 || n == 4 || n == 5 || n ==2 || n ==6) {
 
         return 1;
         }
