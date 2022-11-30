@@ -15,9 +15,9 @@ public class Recurrences {
         if(n == 10) {
             return 1;
         }
-        else{
+        
         return C(n - 10) + C(n - 5);
-        }
+        
     }
 
 
@@ -32,9 +32,8 @@ public class Recurrences {
         if(n == 7) {
             return 3;
         }
-        else{
+       
            return F(n-2) + F(n - 5) + f(n-7);
-        }
     }
 
 
@@ -62,9 +61,9 @@ public class Recurrences {
         if(n == 1) {
             return 2;
         }
-        else {
+        
             return U(n -2) + U(n-1)
-        }
+        
     }
     
 }
